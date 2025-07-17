@@ -8,10 +8,10 @@ new TypeIt('.home__title--strong', {
 })
   .pause(1000)
   .delete()
-  .type('Back-End Engineer') 
+  .type('Software Engineer') 
   .pause(1000)
   .delete() 
-  .type('Cloud Engineer')
+  .type('Yoga instructor')
   .pause(1000)
   .delete()
   .go();
