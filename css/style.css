@@ -708,9 +708,9 @@ button:focus {
 
 .project__img {
   width: 100%;
-    /* height: 250px; */
+  height: 100%;
   border-radius: 8px;
-  margin: 10%;
+  margin: 5%;
 }
 
 .project:hover .project__metadata {
@@ -759,7 +759,7 @@ button:focus {
   text-transform: capitalize;
   text-decoration: none;
   position: relative;
-  margin-top: 15%;
+  margin-top: 10%;
   animation: wiggle 1.5s infinite;
   transition: transform 0.3s ease, color 0.3s ease;
 }

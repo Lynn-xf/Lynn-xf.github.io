@@ -8,11 +8,12 @@ function updateProjectCounts() {
     // Count web applications and mobile applications
     const webProjects = document.querySelectorAll('.project[data-type="web"]').length;
     const mobileProjects = document.querySelectorAll('.project[data-type="mobile"]').length;
-
+    const prototypeProjects = document.querySelectorAll('.project[data-type="prototype"]').length;
     // Update category counts in the buttons
     document.querySelector('.category[data-category="all"] .category__count').textContent = totalProjects;
     document.querySelector('.category[data-category="web"] .category__count').textContent = webProjects;
     document.querySelector('.category[data-category="mobile"] .category__count').textContent = mobileProjects;
+    document.querySelector('.category[data-category="prototype"] .category__count').textContent = prototypeProjects;
 }
 
 // Function to handle category selection and filtering projects
