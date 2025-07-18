@@ -8,7 +8,7 @@ new TypeIt('.home__title--strong', {
 })
   .pause(1000)
   .delete()
-  .type('Software Engineer') 
+  .type('Full Stack Developer') 
   .pause(1000)
   .delete() 
   .type('Yoga instructor')

@@ -759,6 +759,7 @@ button:focus {
   text-transform: capitalize;
   text-decoration: none;
   position: relative;
+  margin-top: 15%;
   animation: wiggle 1.5s infinite;
   transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -780,12 +781,12 @@ button:focus {
 }
 
 .highlight-click::before {
-  top: -10px;
+  top: 10px;
   left: -15px;
 }
 
 .highlight-click::after {
-  bottom: -10px;
+  bottom: 10px;
   right: -15px;
 }
 
@@ -881,8 +882,8 @@ button:focus {
   height: 48px;
   background-color: var(--color-pink);
   border-radius: 50%;
-  display: flex;
   align-items: center;
+  display: fixed;
   justify-content: center;
   transition: transform 0.3s ease;
 }
@@ -938,8 +939,6 @@ button:focus {
         align-items: center;
   }
 }
-
-
 
 
 /* Footer */
