@@ -726,7 +726,8 @@ button:focus {
   max-width: 100%;
   height: auto;
   display: block;
-  border-radius: 8px;
+  border-radius: 12px;
+  padding: auto;
 }
 
 .project:hover .project__metadata {
