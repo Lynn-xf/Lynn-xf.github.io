@@ -447,10 +447,16 @@ button:focus {
   color: #3178C6;
 }
 
+.icon-MongoDB {
+  color: #47A248;
+}
 .icon-node {
   color: #83CD29;
 }
 
+.icon-express {
+  color: #000000;
+}
 .icon-database {
   color: #4DB33D;
 }
