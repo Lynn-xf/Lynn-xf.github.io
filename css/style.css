@@ -707,6 +707,9 @@ button:focus {
 }
 
 .project__img {
+  max-width: 100%;
+  height: auto;
+  display: block;
   border-radius: 8px;
 }
 
